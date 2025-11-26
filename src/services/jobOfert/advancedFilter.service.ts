@@ -9,7 +9,7 @@ export type FilterOptions = {
   city?: string;
   categories?: string[];
   // AÑADIR NUEVOS CAMPOS:
-  tags?: string[] | string; // Permitir array o string separado por comas
+  tags?: string[] | string;
   minPrice?: string;
   maxPrice?: string;
 };
